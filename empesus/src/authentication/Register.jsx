@@ -71,7 +71,7 @@ export const Register = () => {
 
     try {
       let response = await axios.post(
-        "https://natural-nest-723f4-default-rtdb.firebaseio.com/users.json",
+        "https://empesus-82c47-default-rtdb.firebaseio.com/users.json",
         user
       );
 
