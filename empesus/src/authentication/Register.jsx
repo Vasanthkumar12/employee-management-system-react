@@ -187,6 +187,11 @@ export const Register = () => {
              </Link>
           </p>
         </form>
+        <div className='flex justify-center'>
+            <Link className="text-sm text-center text-blue-500 mr-2 mt-1">Terms of Services </Link>
+            &
+            <Link className="text-sm text-center text-blue-500 ml-2 mt-1"> Privacy Policy</Link>
+        </div>
       </div>
     </div>
   );
