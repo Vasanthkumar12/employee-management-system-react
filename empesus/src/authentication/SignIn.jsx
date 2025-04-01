@@ -51,7 +51,7 @@ export const SignIn = () => {
       })
 
       if(isValidUser(usersArray)) {
-        navigate('/')
+        navigate('/landing')
       }
       else {
         let errors = {}

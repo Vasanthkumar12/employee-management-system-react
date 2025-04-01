@@ -1,7 +1,7 @@
 import React, { useEffect, useReducer } from "react";
 import axios from "axios";
 import { useNavigate, Link } from 'react-router-dom'
-import { employeeReducer } from "./employeeRegister";
+import { employeeReducer } from "./employeeReducer";
 
 const initialState = {
   username: "",
